@@ -1,0 +1,55 @@
+@import 'https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap';
+body{font-family:poppins,
+  sans-serif;background-color:lightcoral}
+  
+  #seleccionar-mascota{display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center}
+    .titulo{color:#fff;
+      font-size:32px;
+      font-family:
+      fredoka one,cursive}
+      .subtitulo{color:#fff;
+        font-size:20px}.tarjetas,
+        
+.tarjetas-ataques{display:flex;gap:10px}
+
+.tarjeta-de-mokepon{width:180px;height:100px;
+  background:red;padding:10px;
+  box-sizing:border-box;border-radius:20px;display:flex;
+  justify-content:center;align-items:center;color:#fff}
+
+
+  .tarjeta-de-mokepon img{width:80px}#boton-mascota{width:180px;height:40px;border-radius:20px;background:0 0;
+    
+    
+    
+    border:2px solid #fff;color:#fff;font-family:poppins,sans-serif;margin-top:30px}
+    
+    input{display:none}input:checked+label{background-color:palevioletred}#seleccionar-ataque{display:flex;
+      flex-direction:column;align-items:center}
+      
+      
+      .boton-de-ataque{background-color:red;padding:10px;
+      box-sizing:border-box;border-radius:20px;border-color:transparent;width:80px;color:#fff;font-family:poppins,sans-serif}
+      
+      #mensajes{width:280px;background:#eee;padding:20px;margin-top:20px;border-radius:20px;display:flex;align-items:center;flex-direction:column}
+      
+      #boton-reiniciar{border:none;color:red;font-family:poppins,sans-serif}
+      
+      .ataques{display:grid;grid-template-columns:100px 100px;color:#fff}
+      
+      #vidas-jugador,#vidas-enemigo{font-size:32px;margin-bottom:0}
+      
+      .ataques-jugador,.ataques-enemigo{display:flex;flex-direction:column;align-items:center}
+      
+      #ver-mapa{flex-direction:column;align-items:center;justify-content:center}
+      
+      #ver-mapa button{width:80px;height:40px;border-radius:20px;background:0 0;border:2px solid #fff;color:#fff;font-family:poppins,sans-serif;margin:10px 0}
+      @media(max-width:560px)
+      
+      {.tarjetas,.tarjetas-ataques{flex-direction:column}}
+      
+      @media(max-width:300px){
+    #ver-mapa div{display:flex;align-items:center;flex-direction:column}}
